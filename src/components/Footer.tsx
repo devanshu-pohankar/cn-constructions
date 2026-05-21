@@ -93,14 +93,16 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Map Location */}
-          <div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800">
-            <iframe 
-              title="Office Location"
-              src="https://maps.app.goo.gl/nTp1jwEQjdMsPd4e7" 
-              className="w-full h-40 opacity-50 group-hover:opacity-100 transition-opacity border-0"
-              loading="lazy"
-            ></iframe>
-          </div>
+<div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800">
+  <iframe 
+    title="CN Constructions Office Location"
+    src="https://maps.google.com/maps?q=Shankar%20Nagar,%20Amravati&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+    className="w-full h-40 opacity-50 group-hover:opacity-100 transition-opacity border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
 
         </div>
 
