@@ -11,19 +11,19 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0a0a0a] text-white pt-24 pb-12 px-6 border-t border-gray-900 relative overflow-hidden">
-
+      
       {/* Grid bg points */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.18] z-0"
-        style={{
-          backgroundImage: `radial-gradient(circle, #555555 1px, transparent 1px)`,
-          backgroundSize: '32px 32px'
+      <div 
+        className="absolute inset-0 pointer-events-none opacity-[0.18] z-0" 
+        style={{ 
+          backgroundImage: `radial-gradient(circle, #555555 1px, transparent 1px)`, 
+          backgroundSize: '32px 32px' 
         }}
       ></div>
 
       {/* Content Container */}
       <div className="max-w-7xl mx-auto z-10 relative">
-
+        
         {/* Top Section:Brand & CTA */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-16 gap-8">
           <div className="space-y-2">
@@ -35,7 +35,7 @@ export default function Footer() {
               <p className="mt-2 tracking-[0.2em]">Er. Akshay Sagale - Principal Engineer</p>
             </div>
           </div>
-          <button
+          <button 
             onClick={scrollToTop}
             className="group flex items-center gap-4 bg-gray-900 px-8 py-4 border border-gray-800 hover:border-orange-600 transition-all shadow-lg"
           >
@@ -46,14 +46,14 @@ export default function Footer() {
 
         {/* Middle Grid: Information */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-
+          
           {/* Column 1: Credentials */}
           <div className="space-y-6 border-l border-gray-800 pl-6">
             <h5 className="text-orange-600 font-bold uppercase tracking-widest text-[10px]">Certification</h5>
             <div className="flex items-start gap-3">
               <ShieldCheck className="text-orange-600 shrink-0" size={20} />
               <p className="text-gray-400 text-sm leading-relaxed font-medium">
-                Licensed Structural Engineer & <br />
+                Licensed Structural Engineer & <br /> 
                 Govt. Approved Contractor <br />
                 <span className="text-white italic">Amravati Municipal Corp.</span>
               </p>
@@ -84,25 +84,25 @@ export default function Footer() {
             <h5 className="text-orange-600 font-bold uppercase tracking-widest text-[10px]">Social Media</h5>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all">
-                <Instagram size={18} />
+                <Instagram size={18}/>
               </a>
               <a href="https://www.facebook.com/akshay.sagale" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all">
-                <Facebook size={18} />
+                <Facebook size={18}/>
               </a>
             </div>
           </div>
 
           {/* Column 4: Map Location */}
-          <div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800 h-40">
-            <iframe
-              title="CN Constructions Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.3248384954495!2d77.74264757593922!3d20.909084680711467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4ca1535bb67%3A0xd567e9ac161f3df4!2sAAYAKAR%20BHAVAN!5e0!3m2!1sen!2sin!4v1716382000000!5m2!1sen!2sin"
-              className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+<div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800 h-40">
+  <iframe 
+    title="CN Constructions Office Location"
+    src="https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURtOGJ5OEFnEAE!2m1!1s0x3bd6a4bfc725baa5:0x90766ebcd2072b82" 
+    className="w-full h-full opacity-50 group-hover:opacity-100 transition-opacity border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
 
         </div>
 
