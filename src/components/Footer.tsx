@@ -11,19 +11,19 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0a0a0a] text-white pt-24 pb-12 px-6 border-t border-gray-900 relative overflow-hidden">
-      
+
       {/* Grid bg points */}
-      <div 
-        className="absolute inset-0 pointer-events-none opacity-[0.18] z-0" 
-        style={{ 
-          backgroundImage: `radial-gradient(circle, #555555 1px, transparent 1px)`, 
-          backgroundSize: '32px 32px' 
+      <div
+        className="absolute inset-0 pointer-events-none opacity-[0.18] z-0"
+        style={{
+          backgroundImage: `radial-gradient(circle, #555555 1px, transparent 1px)`,
+          backgroundSize: '32px 32px'
         }}
       ></div>
 
       {/* Content Container */}
       <div className="max-w-7xl mx-auto z-10 relative">
-        
+
         {/* Top Section:Brand & CTA */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-16 gap-8">
           <div className="space-y-2">
@@ -35,7 +35,7 @@ export default function Footer() {
               <p className="mt-2 tracking-[0.2em]">Er. Akshay Sagale - Principal Engineer</p>
             </div>
           </div>
-          <button 
+          <button
             onClick={scrollToTop}
             className="group flex items-center gap-4 bg-gray-900 px-8 py-4 border border-gray-800 hover:border-orange-600 transition-all shadow-lg"
           >
@@ -46,14 +46,14 @@ export default function Footer() {
 
         {/* Middle Grid: Information */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-          
+
           {/* Column 1: Credentials */}
           <div className="space-y-6 border-l border-gray-800 pl-6">
             <h5 className="text-orange-600 font-bold uppercase tracking-widest text-[10px]">Certification</h5>
             <div className="flex items-start gap-3">
               <ShieldCheck className="text-orange-600 shrink-0" size={20} />
               <p className="text-gray-400 text-sm leading-relaxed font-medium">
-                Licensed Structural Engineer & <br /> 
+                Licensed Structural Engineer & <br />
                 Govt. Approved Contractor <br />
                 <span className="text-white italic">Amravati Municipal Corp.</span>
               </p>
@@ -84,21 +84,25 @@ export default function Footer() {
             <h5 className="text-orange-600 font-bold uppercase tracking-widest text-[10px]">Social Media</h5>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all">
-                <Instagram size={18}/>
+                <Instagram size={18} />
               </a>
               <a href="https://www.facebook.com/akshay.sagale" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all">
-                <Facebook size={18}/>
+                <Facebook size={18} />
               </a>
             </div>
           </div>
 
           {/* Column 4: Map Location */}
           <div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800">
-            <iframe 
-              title="Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3600.7419369771515!2d77.7668!3d20.9158!3m2!1i1024!2i768!4f13.1!2m1!1sKiran%20nagar%201%2C%20near%20saibaba%20Temple%20Narsamma%20College%2C%20Sindhu%20Nagar%2C%20Dastur%20Nagar%2C%20Amravati%2C%20Maharashtra%20444606%2C%20India!5e1!3m2!1sen!2sin!4v1779389667062!5m2!1sen!2sin" 
+            {/* Paste your exact iframe code here, but add the className line so it styles perfectly */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4116859345037!2d77.7656795!3d20.9358742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4b1625906f3%3A0xbc4046b9a27e7f84!2sEXCELLENT%20COMMERCE%20ACADEMY!5e0!3m2!1sen!2sin!4v1716320000000!5m2!1sen!2sin"
+              width="400"
+              height="300"
               className="w-full h-40 opacity-50 group-hover:opacity-100 transition-opacity border-0"
+              allowFullScreen
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
 
