@@ -96,7 +96,7 @@ export default function Footer() {
           <div className="relative group grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden border border-gray-800">
             <iframe 
               title="Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119284.14589945032!2d77.68417951559403!3d20.907158759553194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a69b039473%3A0x77067978e58a7d6d!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710345678901!5m2!1sen!2sin" 
+              src="https://maps.app.goo.gl/nTp1jwEQjdMsPd4e7" 
               className="w-full h-40 opacity-50 group-hover:opacity-100 transition-opacity border-0"
               loading="lazy"
             ></iframe>
