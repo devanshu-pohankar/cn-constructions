@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="relative bg-[#25D366] p-4 mb-18 rounded-full shadow-[0_10px_40px_rgba(37,211,102,0.4)] flex items-center justify-center transition-colors hover:bg-[#20ba5a]"
+        className="relative bg-[#25D366] p-4 mb-10 rounded-full shadow-[0_10px_40px_rgba(37,211,102,0.4)] flex items-center justify-center transition-colors hover:bg-[#20ba5a]"
       >
         {/* The Pulse Effect */}
         <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20"></span>
