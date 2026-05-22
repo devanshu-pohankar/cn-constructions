@@ -2,8 +2,8 @@
 import { motion } from "framer-motion";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "8830637882";
-  const message = "Hello Er. Akshay, I saw the CN Constructions website and I'm interested in a consultation.";
+  const phoneNumber = "9172370355"; // Er. Akshay's phone number
+  const message = "Hello Er. Akshay Sagale, I saw the CN Constructions website and I'm interested in a consultation.";
 
   return (
     <div className="fixed bottom-8 right-8 z-100 flex items-center justify-end">
